@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+}
+
+header {
+  padding: 18px 28px;
+  background: #183b32;
+  color: white;
+}
+
+header h1 {
+  margin: 0 0 6px;
+}
+
+header p {
+  margin: 0;
+  color: #d5e5df;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 340px minmax(0, 1fr);
+  gap: 20px;
+  padding: 20px;
+  min-height: calc(100vh - 100px);
+}
+
+#information,
+#viewer-section {
+  background: white;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#information h2,
+#viewer-section h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+#information h2:not(:first-child) {
+  margin-top: 28px;
+}
+
+#molstar-viewer {
+  width: 100%;
+  height: 700px;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 850px) {
+  #app {
+    grid-template-columns: 1fr;
+  }
+
+  #molstar-viewer {
+    height: 600px;
+  }
+}
+
+.exon-card.structure-hover {
+  background: #fff3cd !important;
+  outline: 2px solid #e0a800;
+}
+

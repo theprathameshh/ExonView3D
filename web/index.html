@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExonView3D</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>ExonView3D</h1>
+      <p>Visualising exon organisation on protein structures</p>
+    </header>
+
+    <main id="app">
+      <section id="information">
+        <h2>Gene information</h2>
+        <div id="gene-info">Loading gene information...</div>
+
+        <h2>Transcript information</h2>
+        <div id="transcript-info">Loading transcript information...</div>
+
+        <h2>Exon annotations</h2>
+        <div id="exon-list">Loading exons...</div>
+      </section>
+
+      <section id="viewer-section">
+        <h2>3D Protein Structure</h2>
+        <div id="molstar-viewer"></div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

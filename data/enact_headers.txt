@@ -1,0 +1,14 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 07:07:57 GMT
+Server: Apache/2.4.53 (Oracle Linux Server) OpenSSL/3.0.1 mod_wsgi/4.7.1 Python/3.9
+Vary: Accept,Cookie
+Allow: GET, HEAD, OPTIONS
+X-Frame-Options: DENY
+Content-Length: 5447
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Content-Type: application/json
+
