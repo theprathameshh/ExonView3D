@@ -1,0 +1,1079 @@
+{
+  "name": "TP53 tumor protein p53",
+  "id": 61548,
+  "organism": "Homo sapiens",
+  "entrezid": 7157,
+  "txid": 9606,
+  "trans": [
+    {
+      "tId": "NP_001119584.1",
+      "id": 186551,
+      "swissprot": "P04637",
+      "length": 393,
+      "pi": true,
+      "structured_count_disp": "50.38",
+      "structured_count_ssp": "29.77",
+      "exonsIds": "622511,622518,622501,622523,622504,622520,622521,622507,622502,622517,622516",
+      "exonscount": 11,
+      "unique_domC": 4,
+      "total_domC": 4,
+      "exonscountUTMRD": "U:1, D:4, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:4, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:35,59$P53,PF00870.21,#12e2f1:99,289$P53_tetramer,PF07710.14,#3e517a:319,358$P53_TAD,PF08563.14,#4d86a5:6,30",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.1.A.2.0.0$1,25,1_D.1.A.3.0.0$26,32,0_T.1.A.4.0.0$33,125,0_T.1.F.5.0.0$126,186,0_T.1.G.6.0.0$187,224,0_T.1.G.7.0.0$225,261,0_T.1.G.8.0.0$262,306,0_T.1.G.9.0.0$307,331,0_D.1.G.11.0.0$332,367,0_D.1.G.12.0.0$368,393,2",
+      "secondaryStructure": "H:33,50_79,88_101,108_333,338_343,348-E:217,228_247,252_263,272_279,294_311,326_385,393-D:1,23_32,97_156,162_217,218_282,329_342,393"
+    },
+    {
+      "tId": "NP_001263626.1",
+      "id": 186552,
+      "swissprot": "False",
+      "length": 234,
+      "pi": false,
+      "structured_count_disp": "44.87",
+      "structured_count_ssp": "45.3",
+      "exonsIds": "622513,622520,622521,622507,622502,622517,622516",
+      "exonscount": 7,
+      "unique_domC": 2,
+      "total_domC": 2,
+      "exonscountUTMRD": "U:0, D:2, T:5, M:0, R:0",
+      "exonscountAG": "G:6, A:0, F:1",
+      "domains": "P53_tetramer,PF07710.14,#3e517a:160,199$P53,PF00870.21,#12e2f1:1,130",
+      "exonsRegion": "T.1.F.5.n.1$1,27,1_T.1.G.6.0.0$28,65,0_T.1.G.7.0.0$66,102,0_T.1.G.8.0.0$103,147,0_T.1.G.9.0.0$148,172,0_D.1.G.11.0.0$173,208,0_D.1.G.12.0.0$209,234,2",
+      "secondaryStructure": "H:13,22-E:7,8_67,76_87,96_107,120_139,158_183,198_209,232-D:56,60_123,170_183,234"
+    },
+    {
+      "tId": "NP_001119590.1",
+      "id": 186553,
+      "swissprot": "False",
+      "length": 354,
+      "pi": false,
+      "structured_count_disp": "46.33",
+      "structured_count_ssp": "29.94",
+      "exonsIds": "622511,622519,622506,622504,622520,622521,622507,622502,622517,622516",
+      "exonscount": 10,
+      "unique_domC": 3,
+      "total_domC": 3,
+      "exonscountUTMRD": "U:1, D:2, T:6, M:0, R:1",
+      "exonscountAG": "G:6, A:3, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:1,20$P53_tetramer,PF07710.14,#3e517a:280,319$P53,PF00870.21,#12e2f1:60,250",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_R:-2:D.-2.A.2.n.1:0:D.1.A.3.0.0$1,1,4,10869,11109_T.2.A.4.0.0$1,86,1_T.1.F.5.0.0$87,147,0_T.1.G.6.0.0$148,185,0_T.1.G.7.0.0$186,222,0_T.1.G.8.0.0$223,267,0_T.1.G.9.0.0$268,292,0_D.1.G.11.0.0$293,328,0_D.1.G.12.0.0$329,354,2",
+      "secondaryStructure": "H:19,26_255,260_265,270-E:139,150_171,174_185,194_201,216_233,248_307,316_327,336_347,354-D:1,4_8,58_117,123_178,179_243,290_303,354"
+    },
+    {
+      "tId": "NP_001119586.1",
+      "id": 186554,
+      "swissprot": "False",
+      "length": 341,
+      "pi": false,
+      "structured_count_disp": "43.7",
+      "structured_count_ssp": "28.74",
+      "exonsIds": "622511,622509,622501,622523,622504,622520,622521,622507,622502,622522,622510,622512",
+      "exonscount": 12,
+      "unique_domC": 3,
+      "total_domC": 3,
+      "exonscountUTMRD": "U:1, D:4, T:7, M:0, R:0",
+      "exonscountAG": "G:6, A:5, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:35,59$P53_TAD,PF08563.14,#4d86a5:6,30$P53,PF00870.21,#12e2f1:99,289",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.1.A.2.n.1$1,25,1_D.1.A.3.0.0$26,32,0_T.1.A.4.0.0$33,125,0_T.1.F.5.0.0$126,186,0_T.1.G.6.0.0$187,224,0_T.1.G.7.0.0$225,261,0_T.1.G.8.0.0$262,306,0_T.1.G.9.0.0$307,331,0_T.1.A.10.n.1$332,341,2_D.-2.G.11.0.0$342,342,4,16776,16882_D.-2.G.12.0.0$342,342,4,17801,19070",
+      "secondaryStructure": "H:31,50_79,88_101,108-E:217,228_247,252_263,272_279,294_311,326-D:1,23_32,97_156,162_217,218_254,254_283,330_340,341"
+    },
+    {
+      "tId": "NP_001263625.1",
+      "id": 186555,
+      "swissprot": "False",
+      "length": 302,
+      "pi": false,
+      "structured_count_disp": "38.08",
+      "structured_count_ssp": "25.17",
+      "exonsIds": "622511,622515,622514,622506,622504,622520,622521,622507,622502,622522,622510,622512",
+      "exonscount": 12,
+      "unique_domC": 2,
+      "total_domC": 2,
+      "exonscountUTMRD": "U:1, D:4, T:7, M:0, R:0",
+      "exonscountAG": "G:6, A:5, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:1,20$P53,PF00870.21,#12e2f1:60,250",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.-2.A.2.n.1$1,1,4,10869,10970_D.-2.A.3.0.0$1,1,4,11088,11109_T.2.A.4.0.0$1,86,1_T.1.F.5.0.0$87,147,0_T.1.G.6.0.0$148,185,0_T.1.G.7.0.0$186,222,0_T.1.G.8.0.0$223,267,0_T.1.G.9.0.0$268,292,0_T.1.A.10.n.1$293,302,2_D.-2.G.11.0.0$303,303,4,16776,16882_D.-2.G.12.0.0$303,303,4,17801,19070",
+      "secondaryStructure": "H:17,30_265,270-E:139,148_171,174_185,194_201,216_233,248-D:1,4_8,58_117,123_178,179_215,215_244,291_301,302"
+    },
+    {
+      "tId": "NP_001119585.1",
+      "id": 186556,
+      "swissprot": "False",
+      "length": 346,
+      "pi": false,
+      "structured_count_disp": "39.88",
+      "structured_count_ssp": "28.9",
+      "exonsIds": "622511,622509,622501,622523,622504,622520,622521,622507,622502,622508,622510,622512",
+      "exonscount": 12,
+      "unique_domC": 3,
+      "total_domC": 3,
+      "exonscountUTMRD": "U:1, D:4, T:7, M:0, R:0",
+      "exonscountAG": "G:6, A:5, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:35,59$P53_TAD,PF08563.14,#4d86a5:6,30$P53,PF00870.21,#12e2f1:99,289",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.1.A.2.n.1$1,25,1_D.1.A.3.0.0$26,32,0_T.1.A.4.0.0$33,125,0_T.1.F.5.0.0$126,186,0_T.1.G.6.0.0$187,224,0_T.1.G.7.0.0$225,261,0_T.1.G.8.0.0$262,306,0_T.1.G.9.0.0$307,331,0_T.1.A.10.0.0$332,346,2_D.-2.G.11.0.0$347,347,4,16776,16882_D.-2.G.12.0.0$347,347,4,17801,19070",
+      "secondaryStructure": "H:35,50_79,86_101,108_333,338_343,346-E:217,228_249,252_263,272_279,294_311,326-D:1,23_32,97_156,162_217,218_284,323"
+    },
+    {
+      "tId": "NP_001263624.1",
+      "id": 186557,
+      "swissprot": "False",
+      "length": 307,
+      "pi": false,
+      "structured_count_disp": "33.88",
+      "structured_count_ssp": "26.38",
+      "exonsIds": "622511,622515,622514,622506,622504,622520,622521,622507,622502,622508,622510,622512",
+      "exonscount": 12,
+      "unique_domC": 2,
+      "total_domC": 2,
+      "exonscountUTMRD": "U:1, D:4, T:7, M:0, R:0",
+      "exonscountAG": "G:6, A:5, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:1,20$P53,PF00870.21,#12e2f1:60,250",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.-2.A.2.n.1$1,1,4,10869,10970_D.-2.A.3.0.0$1,1,4,11088,11109_T.2.A.4.0.0$1,86,1_T.1.F.5.0.0$87,147,0_T.1.G.6.0.0$148,185,0_T.1.G.7.0.0$186,222,0_T.1.G.8.0.0$223,267,0_T.1.G.9.0.0$268,292,0_T.1.A.10.0.0$293,307,2_D.-2.G.11.0.0$308,308,4,16776,16882_D.-2.G.12.0.0$308,308,4,17801,19070",
+      "secondaryStructure": "H:17,30_265,270-E:139,150_171,174_185,194_199,216_233,248_307,307-D:1,4_8,58_117,123_178,179_245,284"
+    },
+    {
+      "tId": "NP_001263689.1",
+      "id": 186558,
+      "swissprot": "False",
+      "length": 354,
+      "pi": false,
+      "structured_count_disp": "46.33",
+      "structured_count_ssp": "29.94",
+      "exonsIds": "622511,622515,622514,622506,622504,622520,622521,622507,622502,622517,622516",
+      "exonscount": 11,
+      "unique_domC": 3,
+      "total_domC": 3,
+      "exonscountUTMRD": "U:1, D:4, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:4, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:1,20$P53_tetramer,PF07710.14,#3e517a:280,319$P53,PF00870.21,#12e2f1:60,250",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.-2.A.2.n.1$1,1,4,10869,10970_D.-2.A.3.0.0$1,1,4,11088,11109_T.2.A.4.0.0$1,86,1_T.1.F.5.0.0$87,147,0_T.1.G.6.0.0$148,185,0_T.1.G.7.0.0$186,222,0_T.1.G.8.0.0$223,267,0_T.1.G.9.0.0$268,292,0_D.1.G.11.0.0$293,328,0_D.1.G.12.0.0$329,354,2",
+      "secondaryStructure": "H:19,26_255,260_265,270-E:139,150_171,174_185,194_201,216_233,248_307,316_327,336_347,354-D:1,4_8,58_117,123_178,179_243,290_303,354"
+    },
+    {
+      "tId": "NP_000537.3",
+      "id": 186559,
+      "swissprot": "P04637",
+      "length": 393,
+      "pi": false,
+      "structured_count_disp": "50.38",
+      "structured_count_ssp": "29.77",
+      "exonsIds": "622511,622509,622501,622523,622504,622520,622521,622507,622502,622517,622516",
+      "exonscount": 11,
+      "unique_domC": 4,
+      "total_domC": 4,
+      "exonscountUTMRD": "U:1, D:4, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:4, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:35,59$P53,PF00870.21,#12e2f1:99,289$P53_tetramer,PF07710.14,#3e517a:319,358$P53_TAD,PF08563.14,#4d86a5:6,30",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.1.A.2.n.1$1,25,1_D.1.A.3.0.0$26,32,0_T.1.A.4.0.0$33,125,0_T.1.F.5.0.0$126,186,0_T.1.G.6.0.0$187,224,0_T.1.G.7.0.0$225,261,0_T.1.G.8.0.0$262,306,0_T.1.G.9.0.0$307,331,0_D.1.G.11.0.0$332,367,0_D.1.G.12.0.0$368,393,2",
+      "secondaryStructure": "H:33,50_79,88_101,108_333,338_343,348-E:217,228_247,252_263,272_279,294_311,326_385,393-D:1,23_32,97_156,162_217,218_282,329_342,393"
+    },
+    {
+      "tId": "NP_001263690.1",
+      "id": 186560,
+      "swissprot": "False",
+      "length": 354,
+      "pi": false,
+      "structured_count_disp": "46.33",
+      "structured_count_ssp": "29.94",
+      "exonsIds": "622511,622503,622514,622506,622504,622520,622521,622507,622502,622517,622516",
+      "exonscount": 11,
+      "unique_domC": 3,
+      "total_domC": 3,
+      "exonscountUTMRD": "U:1, D:4, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:4, F:1",
+      "domains": "TAD2,PF18521.4,#cf0bf1:1,20$P53_tetramer,PF07710.14,#3e517a:280,319$P53,PF00870.21,#12e2f1:60,250",
+      "exonsRegion": "U.-2.A.1.0.0$1,1,4,1,114_D.-2.A.2.0.0$1,1,4,10872,10970_D.-2.A.3.0.0$1,1,4,11088,11109_T.2.A.4.0.0$1,86,1_T.1.F.5.0.0$87,147,0_T.1.G.6.0.0$148,185,0_T.1.G.7.0.0$186,222,0_T.1.G.8.0.0$223,267,0_T.1.G.9.0.0$268,292,0_D.1.G.11.0.0$293,328,0_D.1.G.12.0.0$329,354,2",
+      "secondaryStructure": "H:19,26_255,260_265,270-E:139,150_171,174_185,194_201,216_233,248_307,316_327,336_347,354-D:1,4_8,58_117,123_178,179_243,290_303,354"
+    },
+    {
+      "tId": "NP_001119588.1",
+      "id": 186561,
+      "swissprot": "False",
+      "length": 209,
+      "pi": false,
+      "structured_count_disp": "27.75",
+      "structured_count_ssp": "44.5",
+      "exonsIds": "622505,622520,622521,622507,622502,622522,622510,622512",
+      "exonscount": 8,
+      "unique_domC": 1,
+      "total_domC": 1,
+      "exonscountUTMRD": "U:0, D:2, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:1, F:1",
+      "domains": "P53,PF00870.21,#12e2f1:1,157",
+      "exonsRegion": "T.2.F.5.n.1$1,54,1_T.1.G.6.0.0$55,92,0_T.1.G.7.0.0$93,129,0_T.1.G.8.0.0$130,174,0_T.1.G.9.0.0$175,199,0_T.1.A.10.n.1$200,209,2_D.-2.G.11.0.0$210,210,4,16776,16882_D.-2.G.12.0.0$210,210,4,17801,19070",
+      "secondaryStructure": "H-E:3,8_13,30_47,62_121,132_141,150_161,174_193,209-D:25,29_85,86_122,122_151,198_208,209"
+    },
+    {
+      "tId": "NP_001263627.1",
+      "id": 186562,
+      "swissprot": "False",
+      "length": 182,
+      "pi": false,
+      "structured_count_disp": "30.22",
+      "structured_count_ssp": "37.36",
+      "exonsIds": "622513,622520,622521,622507,622502,622522,622510,622512",
+      "exonscount": 8,
+      "unique_domC": 1,
+      "total_domC": 1,
+      "exonscountUTMRD": "U:0, D:2, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:1, F:1",
+      "domains": "P53,PF00870.21,#12e2f1:1,130",
+      "exonsRegion": "T.1.F.5.n.1$1,27,1_T.1.G.6.0.0$28,65,0_T.1.G.7.0.0$66,102,0_T.1.G.8.0.0$103,147,0_T.1.G.9.0.0$148,172,0_T.1.A.10.n.1$173,182,2_D.-2.G.11.0.0$183,183,4,16776,16882_D.-2.G.12.0.0$183,183,4,17801,19070",
+      "secondaryStructure": "H:13,22-E:7,8_67,78_87,96_107,120_137,156-D:56,60_124,171_181,182"
+    },
+    {
+      "tId": "NP_001119589.1",
+      "id": 186563,
+      "swissprot": "False",
+      "length": 214,
+      "pi": false,
+      "structured_count_disp": "21.96",
+      "structured_count_ssp": "46.73",
+      "exonsIds": "622505,622520,622521,622507,622502,622508,622510,622512",
+      "exonscount": 8,
+      "unique_domC": 1,
+      "total_domC": 1,
+      "exonscountUTMRD": "U:0, D:2, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:1, F:1",
+      "domains": "P53,PF00870.21,#12e2f1:1,157",
+      "exonsRegion": "T.2.F.5.n.1$1,54,1_T.1.G.6.0.0$55,92,0_T.1.G.7.0.0$93,129,0_T.1.G.8.0.0$130,174,0_T.1.G.9.0.0$175,199,0_T.1.A.10.0.0$200,214,2_D.-2.G.11.0.0$215,215,4,16776,16882_D.-2.G.12.0.0$215,215,4,17801,19070",
+      "secondaryStructure": "H:79,84-E:3,8_13,30_47,62_121,132_141,150_161,174_193,210-D:25,29_85,86_152,191"
+    },
+    {
+      "tId": "NP_001263628.1",
+      "id": 186564,
+      "swissprot": "False",
+      "length": 187,
+      "pi": false,
+      "structured_count_disp": "24.06",
+      "structured_count_ssp": "37.97",
+      "exonsIds": "622513,622520,622521,622507,622502,622508,622510,622512",
+      "exonscount": 8,
+      "unique_domC": 1,
+      "total_domC": 1,
+      "exonscountUTMRD": "U:0, D:2, T:6, M:0, R:0",
+      "exonscountAG": "G:6, A:1, F:1",
+      "domains": "P53,PF00870.21,#12e2f1:1,130",
+      "exonsRegion": "T.1.F.5.n.1$1,27,1_T.1.G.6.0.0$28,65,0_T.1.G.7.0.0$66,102,0_T.1.G.8.0.0$103,147,0_T.1.G.9.0.0$148,172,0_T.1.A.10.0.0$173,187,2_D.-2.G.11.0.0$188,188,4,16776,16882_D.-2.G.12.0.0$188,188,4,17801,19070",
+      "secondaryStructure": "H:13,22-E:7,8_67,78_87,96_107,120_139,156_183,187-D:56,60_125,164"
+    },
+    {
+      "tId": "NP_001119587.1",
+      "id": 186565,
+      "swissprot": "False",
+      "length": 261,
+      "pi": false,
+      "structured_count_disp": "41.0",
+      "structured_count_ssp": "44.44",
+      "exonsIds": "622505,622520,622521,622507,622502,622517,622516",
+      "exonscount": 7,
+      "unique_domC": 2,
+      "total_domC": 2,
+      "exonscountUTMRD": "U:0, D:2, T:5, M:0, R:0",
+      "exonscountAG": "G:6, A:0, F:1",
+      "domains": "P53_tetramer,PF07710.14,#3e517a:187,226$P53,PF00870.21,#12e2f1:1,157",
+      "exonsRegion": "T.2.F.5.n.1$1,54,1_T.1.G.6.0.0$55,92,0_T.1.G.7.0.0$93,129,0_T.1.G.8.0.0$130,174,0_T.1.G.9.0.0$175,199,0_D.1.G.11.0.0$200,235,0_D.1.G.12.0.0$236,261,2",
+      "secondaryStructure": "H:79,84-E:3,8_13,30_47,62_121,132_141,150_161,174_193,210_237,252-D:25,29_85,86_150,197_210,261"
+    }
+  ],
+  "exonsGenes": [
+    {
+      "exId": "D.1.A.3.0.0",
+      "length": 7,
+      "parent": "False",
+      "aaseq": "LPENNVL",
+      "wef": 0.267,
+      "id": 622501,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186554,186556,186559",
+          "domseq": "AAAAA--"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186551,186559,186556,186554",
+          "disseq": "------D"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186554",
+          "ssseq": "-----HH"
+        },
+        {
+          "list_trans_fk": "186551,186559,186556",
+          "ssseq": "-------"
+        }
+      ],
+      "codst": 11089,
+      "codend": 11109,
+      "rawst": 11088,
+      "rawend": 11109,
+      "sstype": 2
+    },
+    {
+      "exId": "T.1.G.9.0.0",
+      "length": 25,
+      "parent": "False",
+      "aaseq": "ALPNNTSSSPQPKKKPLDGEYFTLQ",
+      "wef": 1.0,
+      "id": 622502,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186552,186553,186558,186559,186560,186565",
+          "domseq": "------------DDDDDDDDDDDDD"
+        },
+        {
+          "list_trans_fk": "186554,186555,186556,186557,186561,186562,186563,186564",
+          "domseq": "-------------------------"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186555,186554,186562,186561",
+          "disseq": "DDDDDDDDDDDDDDDDDDDDDDDD-"
+        },
+        {
+          "list_trans_fk": "186557,186556,186564,186563",
+          "disseq": "DDDDDDDDDDDDDDDDD--------"
+        },
+        {
+          "list_trans_fk": "186560,186551,186559,186558,186553,186552,186565",
+          "disseq": "DDDDDDDDDDDDDDDDDDDDDDD--"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186552",
+          "ssseq": "EEEEEEEEEEE--------------"
+        },
+        {
+          "list_trans_fk": "186565,186563,186561",
+          "ssseq": "------------------EEEEEEE"
+        },
+        {
+          "list_trans_fk": "186551,186559,186556,186554",
+          "ssseq": "----EEEEEEEEEEEEEEEE-----"
+        },
+        {
+          "list_trans_fk": "186564,186562",
+          "ssseq": "EEEEEEEEE----------------"
+        },
+        {
+          "list_trans_fk": "186560,186558,186557,186555,186553",
+          "ssseq": "HHH----------------------"
+        }
+      ],
+      "codst": 13882,
+      "codend": 13956,
+      "rawst": 13883,
+      "rawend": 13956,
+      "sstype": 5
+    },
+    {
+      "exId": "D.-2.A.2.0.0",
+      "length": 0,
+      "parent": "False",
+      "aaseq": "",
+      "wef": 0.067,
+      "id": 622503,
+      "exonsDom": [],
+      "exonsDis": [],
+      "exonsSS": [],
+      "codst": 0,
+      "codend": 0,
+      "rawst": 10872,
+      "rawend": 10970,
+      "sstype": 1
+    },
+    {
+      "exId": "T.1.F.5.0.0",
+      "length": 61,
+      "parent": "False",
+      "aaseq": "YSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSD",
+      "wef": 0.6,
+      "id": 622504,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186553,186554,186555,186556,186557,186558,186559,186560",
+          "domseq": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186560,186551,186559,186558,186557,186556,186555,186554,186553",
+          "disseq": "------------------------------DDDDDDD------------------------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186551,186559,186556,186554",
+          "ssseq": "-------------------------------------------------------------"
+        },
+        {
+          "list_trans_fk": "186560,186558,186557,186555,186553",
+          "ssseq": "----------------------------------------------------EEEEEEEEE"
+        }
+      ],
+      "codst": 12255,
+      "codend": 12437,
+      "rawst": 12255,
+      "rawend": 12438,
+      "sstype": 2
+    },
+    {
+      "exId": "T.2.F.5.n.1",
+      "length": 54,
+      "parent": "T.1.F.5.0.0",
+      "aaseq": "MFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSD",
+      "wef": 0.2,
+      "id": 622505,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186561,186563,186565",
+          "domseq": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186565,186563,186561",
+          "disseq": "------------------------DDDDD-------------------------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186565,186563,186561",
+          "ssseq": "--EEEEEE----EEEEEEEEEEEEEEEEEE----------------EEEEEEEE"
+        }
+      ],
+      "codst": 12276,
+      "codend": 12437,
+      "rawst": 12247,
+      "rawend": 12438,
+      "sstype": 1
+    },
+    {
+      "exId": "T.2.A.4.0.0",
+      "length": 86,
+      "parent": "False",
+      "aaseq": "MDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCT",
+      "wef": 0.333,
+      "id": 622506,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186553,186555,186557,186558,186560",
+          "domseq": "BBBBBBBBBBBBBBBBBBBB---------------------------------------CCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186560,186558,186557,186555,186553",
+          "disseq": "DDDD---DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD----------------------------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186560,186558,186553",
+          "ssseq": "------------------HHHHHHHH------------------------------------------------------------"
+        },
+        {
+          "list_trans_fk": "186557,186555",
+          "ssseq": "----------------HHHHHHHHHHHHHH--------------------------------------------------------"
+        }
+      ],
+      "codst": 11240,
+      "codend": 11497,
+      "rawst": 11219,
+      "rawend": 11497,
+      "sstype": 2
+    },
+    {
+      "exId": "T.1.G.8.0.0",
+      "length": 45,
+      "parent": "False",
+      "aaseq": "GNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKR",
+      "wef": 1.0,
+      "id": 622507,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186552,186553,186554,186555,186556,186557,186558,186559,186560,186561,186562,186563,186564,186565",
+          "domseq": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC-----------------"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186555,186554,186562,186561",
+          "disseq": "---------------------DDDDDDDDDDDDDDDDDDDDDDDD"
+        },
+        {
+          "list_trans_fk": "186557,186556,186564,186563",
+          "disseq": "----------------------DDDDDDDDDDDDDDDDDDDDDDD"
+        },
+        {
+          "list_trans_fk": "186560,186551,186559,186558,186553,186552,186565",
+          "disseq": "--------------------DDDDDDDDDDDDDDDDDDDDDDDDD"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186560,186558,186553",
+          "ssseq": "----------EEEEEEEEEEEEEEEE------HHHHHH----HHH"
+        },
+        {
+          "list_trans_fk": "186565,186563,186561",
+          "ssseq": "EEE--------EEEEEEEEEE----------EEEEEEEEEEEEEE"
+        },
+        {
+          "list_trans_fk": "186557,186555",
+          "ssseq": "----------EEEEEEEEEEEEEEEE----------------HHH"
+        },
+        {
+          "list_trans_fk": "186552,186564",
+          "ssseq": "----EEEEEEEEEEEEEE------------------EEEEEEEEE"
+        },
+        {
+          "list_trans_fk": "186551,186559,186556,186554",
+          "ssseq": "-EEEEEEEEEE------EEEEEEEEEEEEEEEE------------"
+        },
+        {
+          "list_trans_fk": "186562",
+          "ssseq": "----EEEEEEEEEEEEEE----------------EEEEEEEEEEE"
+        }
+      ],
+      "codst": 13655,
+      "codend": 13789,
+      "rawst": 13654,
+      "rawend": 13790,
+      "sstype": 6
+    },
+    {
+      "exId": "T.1.A.10.0.0",
+      "length": 15,
+      "parent": "False",
+      "aaseq": "MLLDLRWCYFLINSS",
+      "wef": 0.267,
+      "id": 622508,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186556,186557,186563,186564",
+          "domseq": "---------------"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186557,186556,186564,186563",
+          "disseq": "---------------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186557",
+          "ssseq": "--------------E"
+        },
+        {
+          "list_trans_fk": "186556",
+          "ssseq": "-HHHHHH----HHHH"
+        },
+        {
+          "list_trans_fk": "186563",
+          "ssseq": "EEEEEEEEEEE----"
+        },
+        {
+          "list_trans_fk": "186564",
+          "ssseq": "----------EEEEE"
+        }
+      ],
+      "codst": 14225,
+      "codend": 14269,
+      "rawst": 14225,
+      "rawend": 14284,
+      "sstype": 4
+    },
+    {
+      "exId": "D.1.A.2.n.1",
+      "length": 25,
+      "parent": "D.1.A.2.0.0",
+      "aaseq": "MEEPQSDPSVEPPLSQETFSDLWKL",
+      "wef": 0.2,
+      "id": 622509,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186554,186556,186559",
+          "domseq": "-----AAAAAAAAAAAAAAAAAAAA"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186559,186556,186554",
+          "disseq": "DDDDDDDDDDDDDDDDDDDDDDD--"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186559,186556,186554",
+          "ssseq": "-------------------------"
+        }
+      ],
+      "codst": 10897,
+      "codend": 10971,
+      "rawst": 10869,
+      "rawend": 10970,
+      "sstype": 1
+    },
+    {
+      "exId": "D.-2.G.11.0.0",
+      "length": 0,
+      "parent": "False",
+      "aaseq": "",
+      "wef": 0.533,
+      "id": 622510,
+      "exonsDom": [],
+      "exonsDis": [],
+      "exonsSS": [],
+      "codst": 0,
+      "codend": 0,
+      "rawst": 16776,
+      "rawend": 16882,
+      "sstype": 1
+    },
+    {
+      "exId": "U.-2.A.1.0.0",
+      "length": 0,
+      "parent": "False",
+      "aaseq": "",
+      "wef": 0.6,
+      "id": 622511,
+      "exonsDom": [],
+      "exonsDis": [],
+      "exonsSS": [],
+      "codst": 0,
+      "codend": 0,
+      "rawst": 1,
+      "rawend": 114,
+      "sstype": 1
+    },
+    {
+      "exId": "D.-2.G.12.0.0",
+      "length": 0,
+      "parent": "False",
+      "aaseq": "",
+      "wef": 0.533,
+      "id": 622512,
+      "exonsDom": [],
+      "exonsDis": [],
+      "exonsSS": [],
+      "codst": 0,
+      "codend": 0,
+      "rawst": 17801,
+      "rawend": 19070,
+      "sstype": 1
+    },
+    {
+      "exId": "T.1.F.5.n.1",
+      "length": 27,
+      "parent": "T.1.F.5.0.0",
+      "aaseq": "MAIYKQSQHMTEVVRRCPHHERCSDSD",
+      "wef": 0.2,
+      "id": 622513,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186552,186562,186564",
+          "domseq": "CCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186552,186564,186562",
+          "disseq": "---------------------------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186552,186564,186562",
+          "ssseq": "------EE----HHHHHHHHHH-----"
+        }
+      ],
+      "codst": 12357,
+      "codend": 12437,
+      "rawst": 12247,
+      "rawend": 12438,
+      "sstype": 1
+    },
+    {
+      "exId": "D.-2.A.3.0.0",
+      "length": 0,
+      "parent": "False",
+      "aaseq": "",
+      "wef": 0.267,
+      "id": 622514,
+      "exonsDom": [],
+      "exonsDis": [],
+      "exonsSS": [],
+      "codst": 0,
+      "codend": 0,
+      "rawst": 11088,
+      "rawend": 11109,
+      "sstype": 1
+    },
+    {
+      "exId": "D.-2.A.2.n.1",
+      "length": 0,
+      "parent": "D.1.A.2.0.0",
+      "aaseq": "",
+      "wef": 0.2,
+      "id": 622515,
+      "exonsDom": [],
+      "exonsDis": [],
+      "exonsSS": [],
+      "codst": 0,
+      "codend": 0,
+      "rawst": 10869,
+      "rawend": 10970,
+      "sstype": 1
+    },
+    {
+      "exId": "D.1.G.12.0.0",
+      "length": 26,
+      "parent": "False",
+      "aaseq": "HLKSKKGQSTSRHKKLMFKTEGPDSD",
+      "wef": 0.467,
+      "id": 622516,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186552,186553,186558,186559,186560,186565",
+          "domseq": "--------------------------"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186560,186551,186559,186558,186553,186552,186565",
+          "disseq": "DDDDDDDDDDDDDDDDDDDDDDDDDD"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186560,186558,186553",
+          "ssseq": "EEEEEEEE----------EEEEEEEE"
+        },
+        {
+          "list_trans_fk": "186552",
+          "ssseq": "EEEEEEEEEEEEEEEEEEEEEEEE--"
+        },
+        {
+          "list_trans_fk": "186565",
+          "ssseq": "-EEEEEEEEEEEEEEEE---------"
+        },
+        {
+          "list_trans_fk": "186551,186559",
+          "ssseq": "-----------------EEEEEEEEE"
+        }
+      ],
+      "codst": 17802,
+      "codend": 17879,
+      "rawst": 17801,
+      "rawend": 19070,
+      "sstype": 4
+    },
+    {
+      "exId": "D.1.G.11.0.0",
+      "length": 36,
+      "parent": "False",
+      "aaseq": "IRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSS",
+      "wef": 0.467,
+      "id": 622517,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186552,186553,186558,186559,186560,186565",
+          "domseq": "DDDDDDDDDDDDDDDDDDDDDDDDDDD---------"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186560,186551,186559,186558,186553,186552,186565",
+          "disseq": "----------DDDDDDDDDDDDDDDDDDDDDDDDDD"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186560,186558,186553",
+          "ssseq": "--------------EEEEEEEEEE----------EE"
+        },
+        {
+          "list_trans_fk": "186552",
+          "ssseq": "----------EEEEEEEEEEEEEEEE----------"
+        },
+        {
+          "list_trans_fk": "186551,186559",
+          "ssseq": "-HHHHHH----HHHHHH-------------------"
+        },
+        {
+          "list_trans_fk": "186565",
+          "ssseq": "EEEEEEEEEEE-------------------------"
+        }
+      ],
+      "codst": 16776,
+      "codend": 16883,
+      "rawst": 16776,
+      "rawend": 16882,
+      "sstype": 4
+    },
+    {
+      "exId": "D.1.A.2.0.0",
+      "length": 25,
+      "parent": "False",
+      "aaseq": "MEEPQSDPSVEPPLSQETFSDLWKL",
+      "wef": 0.067,
+      "id": 622518,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551",
+          "domseq": "-----AAAAAAAAAAAAAAAAAAAA"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186551",
+          "disseq": "DDDDDDDDDDDDDDDDDDDDDDD--"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186551",
+          "ssseq": "-------------------------"
+        }
+      ],
+      "codst": 10897,
+      "codend": 10971,
+      "rawst": 10872,
+      "rawend": 10970,
+      "sstype": 1
+    },
+    {
+      "exId": "R:-2:D.-2.A.2.n.1:0:D.1.A.3.0.0",
+      "length": 0,
+      "parent": "False",
+      "aaseq": "",
+      "wef": 0.067,
+      "id": 622519,
+      "exonsDom": [],
+      "exonsDis": [],
+      "exonsSS": [],
+      "codst": 0,
+      "codend": 0,
+      "rawst": 10869,
+      "rawend": 11109,
+      "sstype": 1
+    },
+    {
+      "exId": "T.1.G.6.0.0",
+      "length": 38,
+      "parent": "False",
+      "aaseq": "GLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPE",
+      "wef": 1.0,
+      "id": 622520,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186552,186553,186554,186555,186556,186557,186558,186559,186560,186561,186562,186563,186564,186565",
+          "domseq": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186552,186564,186562",
+          "disseq": "----------------------------DDDDD-----"
+        },
+        {
+          "list_trans_fk": "186560,186551,186559,186558,186557,186556,186555,186554,186553,186565,186563,186561",
+          "disseq": "------------------------------DD------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186555",
+          "ssseq": "E----------------------EEEE----------E"
+        },
+        {
+          "list_trans_fk": "186551,186559,186556,186554",
+          "ssseq": "------------------------------EEEEEEEE"
+        },
+        {
+          "list_trans_fk": "186561",
+          "ssseq": "EEEEEEEE------------------------------"
+        },
+        {
+          "list_trans_fk": "186560,186558,186557,186553",
+          "ssseq": "EEE--------------------EEEE----------E"
+        },
+        {
+          "list_trans_fk": "186565,186563",
+          "ssseq": "EEEEEEEE----------------HHHHHH--------"
+        },
+        {
+          "list_trans_fk": "186552,186564,186562",
+          "ssseq": "--------------------------------------"
+        }
+      ],
+      "codst": 12519,
+      "codend": 12632,
+      "rawst": 12520,
+      "rawend": 12632,
+      "sstype": 6
+    },
+    {
+      "exId": "T.1.G.7.0.0",
+      "length": 37,
+      "parent": "False",
+      "aaseq": "VGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSS",
+      "wef": 1.0,
+      "id": 622521,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186552,186553,186554,186555,186556,186557,186558,186559,186560,186561,186562,186563,186564,186565",
+          "domseq": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186560,186551,186559,186558,186557,186556,186553,186552,186565,186564,186563,186562",
+          "disseq": "-------------------------------------"
+        },
+        {
+          "list_trans_fk": "186555,186554,186561",
+          "disseq": "-----------------------------D-------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186552",
+          "ssseq": "-EEEEEEEEEE----------EEEEEEEEEE------"
+        },
+        {
+          "list_trans_fk": "186560,186558,186555,186553",
+          "ssseq": "EEEEEEEEE------EEEEEEEEEEEEEEEE------"
+        },
+        {
+          "list_trans_fk": "186551,186559,186554",
+          "ssseq": "EEEE------------------EEEEEE---------"
+        },
+        {
+          "list_trans_fk": "186564,186562",
+          "ssseq": "-EEEEEEEEEEEE--------EEEEEEEEEE------"
+        },
+        {
+          "list_trans_fk": "186557",
+          "ssseq": "EEEEEEEEE----EEEEEEEEEEEEEEEEEE------"
+        },
+        {
+          "list_trans_fk": "186556",
+          "ssseq": "EEEE--------------------EEEE---------"
+        },
+        {
+          "list_trans_fk": "186565,186563,186561",
+          "ssseq": "----------------------------EEEEEEEEE"
+        }
+      ],
+      "codst": 13201,
+      "codend": 13311,
+      "rawst": 13201,
+      "rawend": 13310,
+      "sstype": 7
+    },
+    {
+      "exId": "T.1.A.10.n.1",
+      "length": 10,
+      "parent": "T.1.A.10.0.0",
+      "aaseq": "DQTSFQKENC",
+      "wef": 0.267,
+      "id": 622522,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186554,186555,186561,186562",
+          "domseq": "----------"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186555,186554,186562,186561",
+          "disseq": "--------DD"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186555,186554,186562",
+          "ssseq": "----------"
+        },
+        {
+          "list_trans_fk": "186561",
+          "ssseq": "EEEEEEEEEE"
+        }
+      ],
+      "codst": 14152,
+      "codend": 14181,
+      "rawst": 14152,
+      "rawend": 14284,
+      "sstype": 2
+    },
+    {
+      "exId": "T.1.A.4.0.0",
+      "length": 93,
+      "parent": "False",
+      "aaseq": "SPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCT",
+      "wef": 0.267,
+      "id": 622523,
+      "exonsDom": [
+        {
+          "list_trans_fk": "186551,186554,186556,186559",
+          "domseq": "--BBBBBBBBBBBBBBBBBBBBBBBBB---------------------------------------CCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ],
+      "exonsDis": [
+        {
+          "list_trans_fk": "186551,186559,186556,186554",
+          "disseq": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD----------------------------"
+        }
+      ],
+      "exonsSS": [
+        {
+          "list_trans_fk": "186556",
+          "ssseq": "--HHHHHHHHHHHHHHHH----------------------------HHHHHHHH--------------HHHHHHHH-----------------"
+        },
+        {
+          "list_trans_fk": "186551,186559,186554",
+          "ssseq": "HHHHHHHHHHHHHHHHHH----------------------------HHHHHHHHHH------------HHHHHHHH-----------------"
+        }
+      ],
+      "codst": 11219,
+      "codend": 11497,
+      "rawst": 11219,
+      "rawend": 11497,
+      "sstype": 2
+    }
+  ],
+  "domainCod": [
+    {
+      "color": "#cf0bf1",
+      "code": "B",
+      "name": "PF18521.4",
+      "dId": "TAD2"
+    },
+    {
+      "color": "#4d86a5",
+      "code": "A",
+      "name": "PF08563.14",
+      "dId": "P53_TAD"
+    },
+    {
+      "color": "#12e2f1",
+      "code": "C",
+      "name": "PF00870.21",
+      "dId": "P53"
+    },
+    {
+      "color": "#3e517a",
+      "code": "D",
+      "name": "PF07710.14",
+      "dId": "P53_tetramer"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ExonView3D</title>
+  <link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><h1>ExonView3D</h1><span>Exon organisation on AlphaFold structures</span></div>
+    <form id="gene-form" class="search" autocomplete="off">
+      <label for="gene-input" class="sr-only">NCBI Gene ID</label>
+      <input id="gene-input" inputmode="numeric" placeholder="NCBI Gene ID, e.g. 7157">
+      <button type="submit">Search</button>
+    </form>
+    <div class="examples">Examples:
+      <button type="button" class="chip" data-gene="7157">TP53 (7157)</button>
+      <button type="button" class="chip" data-gene="1">A1BG (1)</button>
+    </div>
+  </header>
+  <div id="notice" role="status" hidden></div>
+  <main>
+    <div id="sidebar">
+      <section class="card" id="gene-panel"><h2>Gene</h2><div class="empty">Enter an NCBI Gene ID to begin.</div></section>
+      <section class="card" id="transcript-panel" hidden><h2>Transcripts</h2></section>
+      <section class="card" id="info-panel" hidden><h2>Details</h2></section>
+      <section class="card" id="exon-panel" hidden><h2>Exons</h2></section>
+    </div>
+    <section id="viewer-panel" aria-label="3D protein structure">
+      <div id="viewer"></div>
+      <div id="viewer-message" class="show"><div><strong>No structure loaded</strong>Search for a gene and choose a transcript.</div></div>
+      <div id="hover-tip"></div>
+    </section>
+  </main>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

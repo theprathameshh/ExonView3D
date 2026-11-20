@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Frontend build tooling (the built bundle in exonview3d/web/static IS committed)
+frontend/node_modules/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store

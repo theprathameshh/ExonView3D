@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exonview3d"
+dynamic = ["version"]
+description = "Explore exon organisation on AlphaFold protein structures in an interactive Mol* viewer."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28",
+    "biopython>=1.80",
+]
+keywords = ["bioinformatics", "exon", "AlphaFold", "Mol*", "protein structure"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+exonview3d = "exonview3d.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "exonview3d.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["exonview3d*"]
+
+[tool.setuptools.package-data]
+exonview3d = ["web/static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
