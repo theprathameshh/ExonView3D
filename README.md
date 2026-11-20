@@ -154,10 +154,11 @@ Gene ID --> ENACTdb (transcripts, exons) --> protein reconstruction and validati
 **`ssl_error` / "could not verify the server certificate".** Some networks, or servers with an incomplete certificate chain, fail verification. Obtain the missing CA certificate(s), concatenate them with your trusted bundle into a PEM file, and pass it:
 
 ```bash
-exonview3d serve --ca-bundle /path/to/bundle.pem
+exonview3d serve --ca-bundle ca.pem
 # or
-export EXONVIEW3D_CA_BUNDLE=/path/to/bundle.pem
+export EXONVIEW3D_CA_BUNDLE=/path/to/ca.pem
 ```
+Make sure you update the path 
 
 `REQUESTS_CA_BUNDLE` is also honoured. Run `exonview3d check` to see which service is failing.
 
