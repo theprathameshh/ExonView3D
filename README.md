@@ -17,7 +17,8 @@ Everything runs locally. No account or API key is needed.
 | Requirement | Notes |
 |---|---|
 | Python 3.9 or newer | 3.11 or 3.12 recommended |
-| pip and git | to install from a git repository |
+| Conda (Miniconda, Anaconda or Miniforge) | recommended; `environment.yml` creates a ready-made environment |
+| pip and git | to install from a git repository (git is included in the conda environment) |
 | Internet access | to reach ENACTdb, UniProt and AlphaFold DB (data is cached locally afterwards) |
 | A modern web browser with WebGL | Chrome, Edge, Firefox or Safari |
 
@@ -27,7 +28,41 @@ Python dependencies (`requests`, `biopython`) are installed automatically. **Nod
 
 Use an isolated environment so the tool does not interfere with other packages.
 
-**With venv**
+### Option 1: conda (recommended)
+
+The repository includes [`environment.yml`](environment.yml), which creates an environment named `exonview3d` with Python 3.11, `git`, `requests` and `biopython`, and installs ExonView3D into it.
+
+```bash
+# Download the environment file (or use it from a clone of this repository)
+curl -O https://raw.githubusercontent.com/theprathameshh/ExonView3D/main/environment.yml
+
+conda env create -f environment.yml
+conda activate exonview3d
+```
+
+Conda keeps the Python dependencies from the `conda-forge` channel; ExonView3D itself comes from this repository through pip.
+
+Manage the environment:
+
+```bash
+conda env update -f environment.yml --prune     # update after the file changes
+pip install --upgrade --force-reinstall --no-deps \
+    "git+https://github.com/theprathameshh/ExonView3D.git"   # pull the latest ExonView3D only
+conda deactivate                                # leave the environment
+conda env remove -n exonview3d                  # delete it
+```
+
+If the repository is private, the `curl` download and the pip step in `environment.yml` both need access. Clone the repository with your credentials instead, and use an SSH URL in the pip line if needed.
+
+Equivalent manual steps, without the file:
+
+```bash
+conda create -n exonview3d -c conda-forge python=3.11 git requests biopython pip
+conda activate exonview3d
+pip install "git+https://github.com/theprathameshh/ExonView3D.git"
+```
+
+### Option 2: venv
 
 ```bash
 python3 -m venv exonview3d-env
@@ -35,19 +70,13 @@ source exonview3d-env/bin/activate          # Windows: exonview3d-env\Scripts\ac
 pip install "git+https://github.com/theprathameshh/ExonView3D.git"
 ```
 
-**With conda**
-
-```bash
-conda create -n exonview3d python=3.11
-conda activate exonview3d
-pip install "git+https://github.com/theprathameshh/ExonView3D.git"
-```
-
-**With pipx** (installs the command globally, isolated)
+### Option 3: pipx (installs the command globally, isolated)
 
 ```bash
 pipx install "git+https://github.com/theprathameshh/ExonView3D.git"
 ```
+
+For a private repository, use an SSH URL (`git+ssh://git@github.com/theprathameshh/ExonView3D.git`) or authenticate git as usual. To pin a version, append `@<tag-or-commit>` to the URL. To upgrade, add `--upgrade`.
 
 Check the installation and your network access:
 
@@ -143,7 +172,7 @@ export EXONVIEW3D_CA_BUNDLE=/path/to/bundle.pem
 **The 3D view is blank.** Make sure WebGL is enabled in your browser and graphics drivers are up to date.
 
 **Security note.** The server binds to `127.0.0.1` by default. Using `--host 0.0.0.0` exposes the viewer to your network; it serves public data only, but do so deliberately.
-`
+
 
 ## Data sources and acknowledgements
 
@@ -156,4 +185,4 @@ Please follow the terms of use and citation requirements of each resource.
 
 ## License
 
-No license has been chosen yet. Add a `LICENSE` file before sharing the repository publicly.
+No license has been chosen yet. Will add a `LICENSE` file before sharing the repository publicly.
