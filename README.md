@@ -32,7 +32,7 @@ Use an isolated environment so the tool does not interfere with other packages.
 ```bash
 python3 -m venv exonview3d-env
 source exonview3d-env/bin/activate          # Windows: exonview3d-env\Scripts\activate
-pip install "git+https://github.com/<OWNER>/ExonView3D.git"
+pip install "git+https://github.com/theprathameshh/ExonView3D.git"
 ```
 
 **With conda**
@@ -40,16 +40,14 @@ pip install "git+https://github.com/<OWNER>/ExonView3D.git"
 ```bash
 conda create -n exonview3d python=3.11
 conda activate exonview3d
-pip install "git+https://github.com/<OWNER>/ExonView3D.git"
+pip install "git+https://github.com/theprathameshh/ExonView3D.git"
 ```
 
 **With pipx** (installs the command globally, isolated)
 
 ```bash
-pipx install "git+https://github.com/<OWNER>/ExonView3D.git"
+pipx install "git+https://github.com/theprathameshh/ExonView3D.git"
 ```
-
-Replace `<OWNER>/ExonView3D` with the repository location. For a private repository, use an SSH URL (`git+ssh://git@github.com/<OWNER>/ExonView3D.git`) or authenticate git as usual. To pin a version, append `@<tag-or-commit>` to the URL. To upgrade, add `--upgrade`.
 
 Check the installation and your network access:
 
@@ -149,7 +147,7 @@ export EXONVIEW3D_CA_BUNDLE=/path/to/bundle.pem
 ## Developing
 
 ```bash
-git clone https://github.com/<OWNER>/ExonView3D.git
+git clone https://github.com/theprathameshh/ExonView3D.git
 cd ExonView3D
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[test]"
