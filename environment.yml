@@ -1,0 +1,20 @@
+# Conda environment for ExonView3D.
+#
+#   conda env create -f environment.yml
+#   conda activate exonview3d
+#
+# Python dependencies come from conda-forge; ExonView3D itself is installed
+# from the Git repository with pip. Node.js is NOT needed (the viewer is
+# shipped pre-built).
+
+name: exonview3d
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - git
+  - requests>=2.28
+  - biopython>=1.80
+  - pip:
+      - "git+https://github.com/theprathameshh/ExonView3D.git"
