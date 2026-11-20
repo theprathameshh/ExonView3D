@@ -143,48 +143,7 @@ export EXONVIEW3D_CA_BUNDLE=/path/to/bundle.pem
 **The 3D view is blank.** Make sure WebGL is enabled in your browser and graphics drivers are up to date.
 
 **Security note.** The server binds to `127.0.0.1` by default. Using `--host 0.0.0.0` exposes the viewer to your network; it serves public data only, but do so deliberately.
-
-## Developing
-
-```bash
-git clone https://github.com/theprathameshh/ExonView3D.git
-cd ExonView3D
-python3 -m venv .venv && source .venv/bin/activate
-pip install -e ".[test]"
-pytest
-```
-
-The tests run offline against recorded public responses (`tests/data`: TP53 and A1BG from ENACTdb, AlphaFold models for P04637).
-
-The browser interface is written in `frontend/src/` and bundled, with Mol\* 5.13.1, into `exonview3d/web/static/`. The built files are committed so that `pip install` from git needs no Node.js. After editing the front end (Node.js 18 or newer):
-
-```bash
-cd frontend
-npm ci
-npm run build        # rewrites exonview3d/web/static/app.js and app.css
-```
-
-Commit the regenerated files together with your source changes.
-
-### Layout
-
-```text
-exonview3d/
-  cli.py                command line (serve, gene, check)
-  server.py             local JSON API and static file server (standard library only)
-  service.py            gene lookup, transcript details, structure mapping
-  enact_client.py       ENACTdb
-  uniprot_client.py     UniProt
-  alphafold_client.py   AlphaFold DB
-  exon_parser.py        transcript and exon parsing, protein reconstruction
-  structure_parser.py   mmCIF reading
-  residue_mapper.py     protein position -> structure residue
-  exon_structure_mapper.py   exon -> structure residue segments
-  colours.py            distinct exon colours
-  web/static/           pre-built viewer (index.html, app.js, app.css)
-frontend/               viewer source and build script
-tests/                  offline test suite and fixtures
-```
+`
 
 ## Data sources and acknowledgements
 
